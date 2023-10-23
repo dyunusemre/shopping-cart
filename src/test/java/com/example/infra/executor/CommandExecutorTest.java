@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -25,6 +27,8 @@ class CommandExecutorTest {
         //when
         commandExecutorUnderTest.executeCommands();
         //assert
-        assertThat(new File("src/test/resources/output.txt")).isNotEmpty();
+        var outputFile = Files.readAllLines(Paths.get("src/test/resources/output.txt"));
+        var expectedFile = Files.readAllLines(Paths.get("src/test/resources/expectedOutputFile.txt"));
+        assertThat(outputFile).isEqualTo(expectedFile);
     }
 }

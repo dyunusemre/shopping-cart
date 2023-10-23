@@ -1,0 +1,10 @@
+{"result":"SUCCEED","message":"Item added"}
+{"result":"SUCCEED","message":"Item added"}
+{"result":"SUCCEED","message":{"totalAmount":496.0,"appliedPromotionId":1232,"totalDiscount":250.0,"items":[{"itemId":888,"categoryId":1002,"sellerId":7444,"price":123.0,"vasItems":[]},{"itemId":777,"categoryId":1001,"sellerId":7788,"price":500.0,"vasItems":[]}]}}
+{"result":"SUCCEED","message":"Vas item added"}
+{"result":"SUCCEED","message":{"totalAmount":646.0,"appliedPromotionId":1232,"totalDiscount":250.0,"items":[{"itemId":888,"categoryId":1002,"sellerId":7444,"price":123.0,"vasItems":[]},{"itemId":777,"categoryId":1001,"sellerId":7788,"price":500.0,"vasItems":[{"vasItemId":111,"vasCategoryId":3242,"vasSellerId":5003,"price":150.0,"quantity":1}]}]}}
+{"result":"SUCCEED","message":"Item removed"}
+{"result":"SUCCEED","message":{"totalAmount":400.0,"appliedPromotionId":1232,"totalDiscount":250.0,"items":[{"itemId":777,"categoryId":1001,"sellerId":7788,"price":500.0,"vasItems":[{"vasItemId":111,"vasCategoryId":3242,"vasSellerId":5003,"price":150.0,"quantity":1}]}]}}
+{"result":"SUCCEED","message":"Cart reset"}
+{"result":"SUCCEED","message":{"totalAmount":0.0,"appliedPromotionId":0,"totalDiscount":0.0,"items":[]}}
+{"result":"FAILED","message":"item.not.found"}
